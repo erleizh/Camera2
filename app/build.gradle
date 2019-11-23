@@ -23,11 +23,11 @@ android {
             res.srcDirs += 'src/main/res_p'
         }
     }
-    externalNativeBuild {
-        cmake {
-            path file('CMakeLists.txt')
-        }
-    }
+//    externalNativeBuild {
+//        cmake {
+//            path file('CMakeLists.txt')
+//        }
+//    }
 }
 
 dependencies {
