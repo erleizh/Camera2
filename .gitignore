@@ -1,13 +1,13 @@
-# Project files and paths.
-.classpath
-.project
 *.iml
-**/*.iml
-.settings/
-bin/
-libs/
-gen/
-.idea/
-
-# ignore OS X metadata
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
 .DS_Store
+/build
+/captures
+.externalNativeBuild
